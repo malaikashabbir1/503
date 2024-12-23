@@ -1,0 +1,28 @@
+body {
+	background-color:#28388a;
+	color:white;
+}
+h1,p{
+	text-align:center;
+}
+div {
+	padding:20px;
+	margin:60px;
+}
+.space {
+	width:100%;
+	font-size:15px;
+	margin-bottom:1px;
+	background-color:#0f1b59;
+	color:white;
+}
+#paragraph{
+	text-align:left;
+}
+.picture{
+	margin-bottom:50px;
+}
+a {
+	color:white;
+	
+}

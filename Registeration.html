@@ -1,0 +1,58 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="Registeration.css">
+</head>
+<body>
+	<main>
+	<div>
+	<h1> Registration Form </h1>
+	<p> Please fill out this form with the required information</p>
+	<section>
+	<label for="fname"> Enter Your First Name: </label> <br>
+	<input type="text" id="fname" class="space"><br>
+	<label for="lname"> Enter Your Last Name: </label> <br>
+	<input type="text" id="lname" class="space"><br>	
+	<label for="mail"> Enter Your Email: </label> <br>
+	<input type="email" id="mail" class="space"><br>
+	<label for="pass"> Create a New Password: </label> <br>
+	<input type="password" id="pass" class="space" ><br>
+	<hr>
+	<p id="paragraph" > Account Type Required </p>
+	<input type="radio" name="account" id="option" value="personal">
+	<label for="option">Personal</label> <br>
+	<input type="radio" name="account"  id="option" value="buisness">
+	<label  for="option">Buisness</label> <br><br>
+	<hr>
+	<br>
+	<label for="profile"  >Upload a Profile Picture</label><br><br>
+	<input type="file" id="profile" name="myprofile" accept="image/*" class="space"> <br>
+	<br>
+	<label for="age"> Input your age (years): </label> <br>
+	<input type="number" name="age" class="space"> <br>`
+	<label for="about"> How did you hear about us? </label> <br>
+	<select name="platform" id="about" class="space"> 
+	<option value=""> --(Select One)-- </option>
+	<option value="Instagram"> Instagram </option>
+	<option value="Facebook"> Facebook </option>
+	<option value="Friend"> From Friends </option>
+	<option value="Pofessor"> Professor </option>
+	</select>
+	<br>
+	<label id="for"> Provide  a Bio: </label><br>
+	<textarea id="bio" name="bio"  rows="5" columns="20" class="space">   I like coding at the beach...  </textarea>
+	<br>
+	<br>
+	<input type="checkbox" id="terms">
+	<label for="terms">I accept the <a href="#"> terms and conditions </a>
+
+	</div>
+	</main>
+
+
+
+</body>
+</html>
